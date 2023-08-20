@@ -6,7 +6,9 @@
 }
 
 .logo__container {
-    border: 2px solid blue
+    border: 2px solid blue;
+    flex: 1;
+    max-width: 25%;
 }
 
 .logo {
@@ -17,6 +19,9 @@
 .navlinks__container {
     border: 2px solid green;
     display: flex;
+    overflow-x: auto;
+    flex: 3;
+    max-width: 75%;
 }
 
 .navlink {
@@ -24,3 +29,11 @@
     text-decoration: none;
     
 }
+
+/* .navlink,
+.navlinks__container {
+    box-sizing: border-box;
+}
+.navlink a {
+    white-space: nowrap;
+} */
