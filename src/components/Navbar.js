@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../css/Navbar.css'
 
 function Navbar() {
@@ -12,6 +12,18 @@ function Navbar() {
     const closeMenu = () => {
         setMenuStatus(false)
     }
+
+    useEffect(() => {
+        const handleResize = () => {
+            setMenuStatus(window.innerWidth >= 900)
+        }
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize)
+        }
+    }, [])
 
   return (
     <div className='navbar'>
