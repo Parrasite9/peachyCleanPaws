@@ -1,0 +1,26 @@
+.navbar {
+    border: 2px solid red;
+    display: flex;
+    width: 100%;
+
+}
+
+.logo__container {
+    border: 2px solid blue
+}
+
+.logo {
+    width: 75%;
+    height: auto;
+}
+
+.navlinks__container {
+    border: 2px solid green;
+    display: flex;
+}
+
+.navlink {
+    margin-right: 5%;
+    text-decoration: none;
+    
+}
