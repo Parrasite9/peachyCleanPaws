@@ -2,13 +2,13 @@
     border: 2px solid red;
     display: flex;
     width: 100%;
-
+    overflow: hidden;
 }
 
 .logo__container {
     border: 2px solid blue;
     flex: 1;
-    max-width: 25%;
+    max-width: 45%;
 }
 
 .logo {
@@ -21,7 +21,8 @@
     display: flex;
     overflow-x: auto;
     flex: 3;
-    max-width: 75%;
+    max-width: 55%;
+    flex-direction: column;
 }
 
 .navlink {
@@ -29,11 +30,3 @@
     text-decoration: none;
     
 }
-
-/* .navlink,
-.navlinks__container {
-    box-sizing: border-box;
-}
-.navlink a {
-    white-space: nowrap;
-} */
