@@ -79,3 +79,11 @@
     align-self: center;
     margin-right: 5%;
 }
+
+.closeIcon {
+    display: flex;
+    margin-left: auto;
+    align-self: center;
+    margin-top: 5%;
+    margin-right: 5%;
+}
