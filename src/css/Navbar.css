@@ -71,5 +71,11 @@
 .navlinks__container > .navlinks__inside__container > .navlink > a {
     color: fuchsia; /* CHANGE THIS UGLY ASS COLOR */
     text-decoration: none;
-    
+}
+
+.burgerMenu {
+    display: flex;
+    margin-left: auto;
+    align-self: center;
+    margin-right: 5%;
 }
