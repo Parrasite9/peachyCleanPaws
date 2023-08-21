@@ -3,6 +3,9 @@
     display: flex;
     width: 100%;
     overflow: hidden;
+
+
+    position: relative;
 }
 
 .logo__container {
@@ -16,14 +19,44 @@
     height: auto;
 }
 
-.navlinks__container {
+/* .navlinks__container {
     border: 2px solid green;
     display: flex;
     overflow-x: auto;
     flex: 3;
     max-width: 55%;
     flex-direction: column;
+
+    transition: transform 1s ease-in-out;
+    transform: translateX(50%);
 }
+
+.navlinks__container.active {
+    transform: translateX(0%);
+  } */
+
+  /* Navbar.css */
+
+.navlinks__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Set height to fill the entire viewport */
+  background-color: white; /* or your preferred background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(0%); /* Initially hide above the viewport */
+  z-index: 1000; /* Ensure it's on top of other elements */
+}
+  
+.navlinks__container.active {
+    transform: translateY(50); /* Slide down to fill the screen */
+  }
+  
 
 .navlink {
     margin-right: 5%;
