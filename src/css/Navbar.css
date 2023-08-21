@@ -68,8 +68,8 @@
 }
   
 
-.navlink {
-    margin-right: 5%;
+.navlinks__container > .navlinks__inside__container > .navlink > a {
+    color: fuchsia; /* CHANGE THIS UGLY ASS COLOR */
     text-decoration: none;
     
 }

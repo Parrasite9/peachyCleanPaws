@@ -40,11 +40,11 @@ function Navbar() {
 
             <div className="navlinks__container">
                 <div className="navlinks__inside__container">
-                <div className="navlink navlink1"><a href=''>Home</a></div>
-                <div className="navlink navlink2"><a href=''>About Us</a></div>
-                <div className="navlink navlink3"><a href=''>Prices</a></div>
-                <div className="navlink navlink4"><a href=''>Appointments</a></div>
-                <div onClick={closeMenu}><CloseIcon /></div>
+                    <div className="navlink navlink1"><a href=''>Home</a></div>
+                    <div className="navlink navlink2"><a href=''>About Us</a></div>
+                    <div className="navlink navlink3"><a href=''>Prices</a></div>
+                    <div className="navlink navlink4"><a href=''>Appointments</a></div>
+                    <div onClick={closeMenu}><CloseIcon /></div>
                 </div>
             </div>
 
