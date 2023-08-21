@@ -56,6 +56,16 @@
 .navlinks__container.active {
     transform: translateY(50); /* Slide down to fill the screen */
   }
+
+  .navlinks__inside__container {
+    border: 2px solid green;
+    padding: 35% 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Distribute space evenly between links */  
+    flex: 1;
+}
   
 
 .navlink {
