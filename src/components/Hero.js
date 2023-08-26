@@ -1,4 +1,5 @@
 import React from 'react'
+import HeroVideoPlayer from './HeroVideoPlayer'
 
 function Hero() {
   return (
@@ -8,10 +9,11 @@ function Hero() {
       </div>
 
       <div className="hero__img">
-        <img src="#" alt="#" />
+        <img src="/images/MainDog.png" alt="#" />
       </div>
 
       <div className="hero__buttons">
+        <HeroVideoPlayer onClose={() => {}} />
         <button>Book Appointment</button>
       </div>
     </div>
