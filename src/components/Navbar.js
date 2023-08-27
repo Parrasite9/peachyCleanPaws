@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import '../css/Navbar.css'
+import '../css/Home/Navbar.css'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 

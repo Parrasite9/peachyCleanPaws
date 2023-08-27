@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import CloseIcon from '@mui/icons-material/Close';
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
+import "../css/Home/Hero/HeroVideoPlayer.css"
 
 function HeroVideoPlayer({onClose}) {
 
