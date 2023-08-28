@@ -1,0 +1,20 @@
+.hero__img > img {
+    width: 100%;
+    height: auto;
+}
+
+.hero__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.hero__buttons > button {
+    margin-left: 5%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+}
+
+.play__video {
+    display: flex;
+    align-items: center;
+}

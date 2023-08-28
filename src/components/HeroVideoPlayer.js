@@ -35,6 +35,7 @@ function HeroVideoPlayer({onClose}) {
 
       <button className='play__button' onClick={openVideo}>
         <PlayCircleIcon />
+        <p>Play Video</p>
       </button>
 
     </div>
