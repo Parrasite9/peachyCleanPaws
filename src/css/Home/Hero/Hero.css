@@ -1,3 +1,13 @@
+.hero {
+    border: 2px solid orange;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.hero__text > h1  {
+    margin: 2%;
+}
+
 .hero__img > img {
     width: 100%;
     height: auto;
@@ -6,12 +16,11 @@
 .hero__buttons {
     display: flex;
     justify-content: center;
+    background-color: #1290CB;
 }
 
 .hero__buttons > button {
     margin-left: 5%;
-    padding-top: .5%;
-    padding-bottom: .5%;
 }
 
 .play__video {
