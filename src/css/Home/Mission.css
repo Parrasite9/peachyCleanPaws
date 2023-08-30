@@ -1,0 +1,15 @@
+.mission {
+    margin: 2%;
+}
+
+.mission__section__title {
+    color: #1290CB;
+}
+
+.mission__learn__more > button {
+    padding: 2% 5%;
+    border-radius: 25px;
+    background-color: #1290CB;
+    border: 1px solid #1290CB;
+    color: white;
+}

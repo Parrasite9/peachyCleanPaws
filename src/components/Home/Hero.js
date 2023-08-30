@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroVideoPlayer from './HeroVideoPlayer'
-import '../css/Home/Hero/Hero.css'
+import '../../css/Home/Hero/Hero.css'
 
 function Hero() {
   return (
