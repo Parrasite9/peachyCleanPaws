@@ -1,5 +1,7 @@
 import React from 'react'
-import '../../css/Home/Services.css'
+import '../../../css/Home/Services.css'
+import PricingTable from './PricingTable'
+
 function Services() {
   return (
     <div className='services'>
@@ -22,6 +24,7 @@ function Services() {
       <div className="pricing__section">
         <div className="pricing__title">
             <h3>Grooming That Fits Your Budget</h3>
+            <PricingTable />
         </div>
       </div>
       
