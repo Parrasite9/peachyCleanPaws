@@ -2,4 +2,16 @@
     background-color: #1290CB;
     color: #fff;
     padding: 0 2%;
+    text-align: center;
+  }
+
+  .Socials {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    /* justify-items: center; */
+  }
+
+  .Socials > img {
+    width: 100%;
+    height: auto;
   }
