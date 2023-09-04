@@ -5,6 +5,7 @@ import Mission from './Mission'
 import Services from '../Home/Services/Services'
 import Footer from '../Footer'
 import SocialStatus from './SocialStatus'
+import Testimonials from './Testimonials'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Services />
       <SocialStatus />
       <Mission />
+      <Testimonials />
       <Footer />
     </div>
   )
