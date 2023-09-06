@@ -1,0 +1,11 @@
+.faq__container {
+    border: 1px solid red;
+}
+
+.question {
+    background-color: #1290CB;
+}
+
+.faq__subContainer {
+    padding: 0 2%;
+}
