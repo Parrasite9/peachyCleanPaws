@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import '../../css/Home/Email.css'
 
 function Email() {
 
@@ -23,7 +24,19 @@ function Email() {
 
   return (
     <div className='email'>
-      THIS IS EMAIL
+        <h2>Subscribe to our newsletter!</h2>
+        <form className='newsletter' onSubmit={handleSubmit}>
+            <input 
+                type="email"
+                placeholder='Enter your email'
+                value={email}
+                onChange={handleInput}
+                />
+        </form>
+
+        <button
+            type='submit'
+        >Submit</button>
     </div>
   )
 }

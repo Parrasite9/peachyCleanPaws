@@ -1,0 +1,17 @@
+.email > form > input {
+    padding: 0 2%;
+    font-size: 1em;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.email > button {
+    margin: 2%;
+    padding: 1% 2%;
+    background-color: #8BC34A;
+    border: none;
+    color: black;
+    font-size: .85em;
+    border-radius: 5px;
+    cursor: pointer;
+}
