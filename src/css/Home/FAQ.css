@@ -1,5 +1,6 @@
-.faq__container {
-    border: 1px solid red;
+.faq__header > h3 {
+    text-align: center;
+    color: #1290CB;
 }
 
 .question {
@@ -8,4 +9,12 @@
 
 .faq__subContainer {
     padding: 0 2%;
+}
+
+.faq__Title {
+    color: white;
+}
+
+.faq__Icon {
+    color: #F5F5F5;
 }
