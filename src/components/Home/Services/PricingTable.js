@@ -16,44 +16,51 @@ const PricingList = styled("ul")({
 });
 
 const tiers = [
-  {
-    title: "Free",
-    price: "0",
+{
+    title: "Essential Care Package",
+    subheader: "Basic Grooming Package",
+    price: "100",
     description: [
-      "10 users included",
-      "2 GB of storage",
-      "Help center access",
-      "Email support",
-    ],
-    buttonText: "Sign up for free",
-    buttonVariant: "outlined",
-  },
-  {
-    title: "Pro",
-    subheader: "Most popular",
-    price: "15",
-    description: [
-      "20 users included",
-      "10 GB of storage",
-      "Help center access",
-      "Priority email support",
-    ],
-    buttonText: "Get started",
-    buttonVariant: "contained",
-  },
-  {
-    title: "Enterprise",
-    price: "30",
-    description: [
-      "50 users included",
-      "30 GB of storage",
-      "Help center access",
-      "Phone & email support",
-    ],
-    buttonText: "Contact us",
-    buttonVariant: "outlined",
-  },
+        // "Housecall charge: $20",
+        "Accommodates small, medium, and large dogs",
+        "Paw Experience Shampoo/Conditioner included",
+        "Nail clipping and grinding included",
+        "Ear cleaning and nose/paw balm included",
+        ],
+        buttonVariant: "outlined",
+        buttonText: "Select",
+    },
+    {
+        title: "Better Subscription",
+        subheader: "Premium Grooming Package",
+        price: "150",
+        description: [
+        //   "Housecall charge: $20",
+          "Accommodates small, medium, and large dogs",
+          "Choose from premium shampoos/conditioners",
+          "Nail clipping and grinding included",
+          "Ear cleaning, nose/paw balm, and teeth brushing included",
+        ],
+        buttonVariant: "outlined",
+        buttonText: "Select",
+      },
+      {
+        title: "Best Subscription",
+        subheader: "Ultimate Grooming Package",
+        price: "200",
+        description: [
+        //   "Housecall charge: $15",
+          "Accommodates small, medium, and large dogs",
+          "All premium shampoos/conditioners included",
+          "Comprehensive nail services included",
+          "Complete care: ear cleaning, nose/paw balm, teeth brushing, extra brush out, and fresh scent dog spray included",
+          "Exclusive access to priority scheduling",
+        ],
+        buttonVariant: "outlined",
+        buttonText: "Select",
+      },
 ];
+
 export default function Pricing() {
   return (
     <Container maxWidth="md" component="main">
@@ -74,12 +81,17 @@ export default function Pricing() {
                 action={tier.title === "Pro" ? <StarIcon /> : null}
                 subheaderTypographyProps={{
                   align: "center",
+                  color: "white",
                 }}
+                // sx={{
+                //   backgroundColor: (theme) =>
+                //     theme.palette.mode === "light"
+                //       ? theme.palette.grey[200]
+                //       : theme.palette.grey[700],
+                // }}
                 sx={{
-                  backgroundColor: (theme) =>
-                    theme.palette.mode === "light"
-                      ? theme.palette.grey[200]
-                      : theme.palette.grey[700],
+                    backgroundColor: "#1290CB",
+                    color: "white"
                 }}
               />
               <CardContent>
@@ -89,6 +101,7 @@ export default function Pricing() {
                     justifyContent: "center",
                     alignItems: "baseline",
                     mb: 2,
+                    color: "white",
                   }}
                 >
                   <Typography component="h2" variant="h3" color="text.primary">
