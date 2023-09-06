@@ -1,12 +1,23 @@
-.email > form > input {
-    padding: 0 2%;
+.email > h2 {
+    text-align: center;
+}
+
+.email__subContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email__subContainer > form > input {
+    padding: 1% 2%;
     font-size: 1em;
     border: 2px solid #ddd;
     border-radius: 5px;
 }
 
-.email > button {
+.email__subContainer > button {
     margin: 2%;
+    margin-left: 3%;
     padding: 1% 2%;
     background-color: #8BC34A;
     border: none;

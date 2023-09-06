@@ -11,6 +11,10 @@
     font-size: 24px;
   }
 
+  .play__button > .videoIcon {
+      color: #fff;  
+  }
+
   .play__button > p {
     font-size: .65em;
     margin-left: 10px;

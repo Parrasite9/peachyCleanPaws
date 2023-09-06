@@ -25,18 +25,22 @@ function Email() {
   return (
     <div className='email'>
         <h2>Subscribe to our newsletter!</h2>
-        <form className='newsletter' onSubmit={handleSubmit}>
-            <input 
-                type="email"
-                placeholder='Enter your email'
-                value={email}
-                onChange={handleInput}
-                />
-        </form>
+        
+        <div className="email__subContainer">
+            <form className='newsletter' onSubmit={handleSubmit}>
+                <input 
+                    type="email"
+                    placeholder='Enter your email'
+                    value={email}
+                    onChange={handleInput}
+                    />
+            </form>
 
-        <button
-            type='submit'
-        >Submit</button>
+            <button
+                type='submit'
+            >Submit</button>
+        </div>
+
     </div>
   )
 }
