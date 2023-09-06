@@ -6,6 +6,8 @@ import Services from '../Home/Services/Services'
 import Footer from '../Footer'
 import SocialStatus from './SocialStatus'
 import Testimonials from './Testimonials'
+import Email from './Email'
+import FAQ from './FAQ'
 
 function Home() {
   return (
@@ -16,6 +18,8 @@ function Home() {
       <SocialStatus />
       <Mission />
       <Testimonials />
+      <Email />
+      <FAQ />
       <Footer />
     </div>
   )
