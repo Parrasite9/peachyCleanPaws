@@ -1,17 +1,11 @@
 .testimonials {
-    border: 1px solid orange;
-    background-color: green;
+    background-color: #1290CB;
+    padding: 2% 0;
 }
 
 .testimonials > h2 {
     text-align: center;
 }
-
-/* .individual__Slide {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
-} */
 
 .individual__Slide {
     display: flex; 
@@ -27,5 +21,9 @@
     background-color: white;
     border-radius: 50%;
     margin: auto;
+}
+
+.individual__Slide > p {
+    padding: 0 3%;
 }
 
