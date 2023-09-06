@@ -22,7 +22,7 @@ function Services() {
       </div>
 
       <div className="pricing__section">
-        <div className="pricing__title">
+        <div className="pricing__Title">
             <h3>Grooming That Fits Your Budget</h3>
             <PricingTable />
         </div>

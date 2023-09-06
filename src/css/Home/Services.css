@@ -2,3 +2,8 @@
     padding: 2%;
     background-color: #F5F5F5;
 }
+
+.services__Title,
+.pricing__Title > h3 {
+    color: #1290CB;
+}
