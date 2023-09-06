@@ -16,12 +16,12 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div className="testimonials">
-        <h2> Single Item</h2>
+        <h2>Testimonials</h2>
         <Slider {...settings}>
           <div className="individual__Slide">
             <img src="https://i.imgur.com/OdqbS0w.png" alt="" />
             <h3 className="testimonial__Name">Isaiah Johnson</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, iure!</p>
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, iure!"</p>
           </div>
           <div className="individual__Slide">
             <img src="#" alt="" />

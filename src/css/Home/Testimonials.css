@@ -3,3 +3,29 @@
     background-color: green;
 }
 
+.testimonials > h2 {
+    text-align: center;
+}
+
+/* .individual__Slide {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+} */
+
+.individual__Slide {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+  }
+  
+
+.individual__Slide > img {
+    width: 15%;
+    height: auto;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+}
+
