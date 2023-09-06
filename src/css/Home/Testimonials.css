@@ -1,6 +1,21 @@
 .testimonials {
     background-color: #1290CB;
     padding: 2% 0;
+    /* color: white; */
+}
+
+.testimonial__Icon {
+    color: #F5F5F5;
+}
+
+.testimonials__header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.testimonials__header > h2 {
+    color: white;
 }
 
 .testimonials > h2 {
@@ -23,7 +38,12 @@
     margin: auto;
 }
 
+.individual__Slide > h3 {
+    color: #F5F5F5;
+}
+
 .individual__Slide > p {
     padding: 0 3%;
+    color: white;
 }
 

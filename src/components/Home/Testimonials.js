@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import '../../css/Home/Testimonials.css'
+import PetsIcon from '@mui/icons-material/Pets';
 
 export default class SimpleSlider extends Component {
   render() {
@@ -16,7 +17,11 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div className="testimonials">
-        <h2>Testimonials</h2>
+        <div className="testimonials__header">
+            <PetsIcon className="testimonial__Icon" />
+            <h2>Testimonials</h2>
+            <PetsIcon className="testimonial__Icon" />
+        </div>
         <Slider {...settings}>
           <div className="individual__Slide">
             <img src="https://i.imgur.com/OdqbS0w.png" alt="" />
