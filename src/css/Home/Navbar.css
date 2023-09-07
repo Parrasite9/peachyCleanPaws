@@ -56,7 +56,7 @@
   }
 
   .navlinks__inside__container {
-    border: 2px solid green;
+    background-color: #1290CB;
     padding: 35% 25%;
     display: flex;
     flex-direction: column;
@@ -64,10 +64,14 @@
     justify-content: space-between; /* Distribute space evenly between links */  
     flex: 1;
 }
+
+.navlinks__inside__container .navlink {
+    margin-top: 15%; /* Increase the margin to add space between links */
+  }
   
 
 .navlinks__container > .navlinks__inside__container > .navlink > a {
-    color: fuchsia; /* CHANGE THIS UGLY ASS COLOR */
+    color: white; /* CHANGE THIS UGLY ASS COLOR */
     text-decoration: none;
 }
 
