@@ -6,7 +6,7 @@ function Mission() {
   return (
     <div className='mission'>
       <div className="paw__print">
-        <PetsIcon />
+        <PetsIcon className='paw__Icon' />
       </div>
 
       <div className="mission__section__title">

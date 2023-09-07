@@ -1,3 +1,12 @@
+.paw__print {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.paw__print > .paw__Icon {
+    color: #8B4513;
+}
+
 .mission {
     margin: 2%;
 }
