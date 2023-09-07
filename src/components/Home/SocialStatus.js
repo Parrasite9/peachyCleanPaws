@@ -1,10 +1,13 @@
 import React from 'react'
 import '../../css/Home/SocialStatus.css'
+import PetsIcon from '@mui/icons-material/Pets';
 
 function SocialStatus() {
   return (
     <div className='socialStatus'>
       <h2>As Seen On</h2>
+      <PetsIcon className='paw__Icon' />
+
       <div className="Socials">
         <img src="https://i.imgur.com/X1xpm7X.png" alt="Yahoo" />
         <img src="https://i.imgur.com/3mc6Pqp.png" alt="Entrepreneur" />

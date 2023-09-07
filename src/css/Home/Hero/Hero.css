@@ -6,6 +6,7 @@
 
 .hero__text > h1  {
     margin: 2%;
+    color: #1290CB;
 }
 
 .hero__img > img {
@@ -17,7 +18,8 @@
     display: flex;
     justify-content: center;
     background-color: #1290CB;
-    padding-bottom: 2%;
+    padding: 2% 0;
+    padding-bottom: 5%;
 }
 
 .hero__buttons > button {

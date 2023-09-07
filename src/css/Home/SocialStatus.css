@@ -5,6 +5,10 @@
     text-align: center;
   }
 
+  .paw__Icon {
+    color: #8B4513;
+  }
+
   .Socials {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
