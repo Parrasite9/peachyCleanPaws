@@ -12,7 +12,7 @@
   .Socials {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    /* justify-items: center; */
+    justify-items: center;
   }
 
   .Socials > img {
@@ -23,5 +23,11 @@
   @media (min-width: 480px) {
     .Socials > img {
         width: 85%;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .Socials > img {
+        width: 65%;
     }
   }
