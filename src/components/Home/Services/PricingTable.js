@@ -17,14 +17,14 @@ const PricingList = styled("ul")({
 
 const tiers = [
 {
-    title: "Essential Care Package",
+    title: "Essentials Package",
     subheader: "Basic Grooming Package",
     price: "100",
     description: [
         // "Housecall charge: $20",
         "Accommodates small, medium, and large dogs",
         "Paw Experience Shampoo/Conditioner included",
-        "Nail clipping and grinding included",
+        "Nail clipping and grinding",
         "Ear cleaning and nose/paw balm included",
         ],
         buttonVariant: "outlined",
@@ -51,9 +51,9 @@ const tiers = [
         description: [
         //   "Housecall charge: $15",
           "Accommodates small, medium, and large dogs",
-          "All premium shampoos/conditioners included",
-          "Comprehensive nail services included",
-          "Complete care: ear cleaning, nose/paw balm, teeth brushing, extra brush out, and fresh scent dog spray included",
+          "All premium shampoos/conditioners",
+          "Comprehensive nail services",
+          "Complete care: ear cleaning, nose/paw balm, teeth brushing, extra brush out, and fresh scent dog spray",
           "Exclusive access to priority scheduling",
         ],
         buttonVariant: "outlined",

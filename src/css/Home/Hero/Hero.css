@@ -62,4 +62,10 @@
       padding-bottom: 2%; /* Reduce the bottom padding */
     }
   }
+
+  @media (min-width: 600px) {
+    .hero__buttons > button {
+        margin-left: 15%
+    }
+  }
   
