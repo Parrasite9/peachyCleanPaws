@@ -24,7 +24,7 @@ function Footer() {
           <a href='#'>Appointments</a>
         </nav>
       </div>
-      <p className='footer__copyright'>&copy; {currentYear} Your Pet Grooming Service. All rights reserved.</p>
+      <p className='footer__copyright'>&copy; {currentYear} Peachy Clean Paws. All rights reserved.</p>
     </div>
   );
 }

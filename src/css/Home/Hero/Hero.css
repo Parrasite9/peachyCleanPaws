@@ -2,11 +2,13 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     background-color: #F5F5F5;
+    padding: 0 2%;
 }
 
 .hero__text > h1  {
     margin: 2%;
     color: #1290CB;
+    /* padding-left: 2%; */
 }
 
 .hero__img > img {
