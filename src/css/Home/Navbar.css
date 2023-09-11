@@ -16,24 +16,6 @@
     height: auto;
 }
 
-/* .mobile__navlinks__container {
-    border: 2px solid green;
-    display: flex;
-    overflow-x: auto;
-    flex: 3;
-    max-width: 55%;
-    flex-direction: column;
-
-    transition: transform 1s ease-in-out;
-    transform: translateX(50%);
-}
-
-.mobile__navlinks__container.active {
-    transform: translateX(0%);
-  } */
-
-  /* Navbar.css */
-
 .mobile__navlinks__container {
   position: fixed;
   top: 0;
@@ -49,10 +31,6 @@
   transform: translateY(0%); 
   z-index: 1000; 
 }
- 
-/* .mobile__navlinks__container {
-    display: none;
-} */
 
 .mobile__navlinks__container.active {
     transform: translateY(50); /* Slide down to fill the screen */
@@ -94,24 +72,19 @@
     margin-right: 5%;
 }
 
-/* .desktop__navlinks__inside__container {
+.desktop__navlink__container {
     display: flex;
-    align-items: center;
-} */
-
-
-.test {
-    display: flex;
-    flex: 1;
+    flex-basis: calc(100% - 45%); /* Take remaining width after considering the logo container */
+    max-width: 55%; /* Adjust this percentage as needed */
+    align-content: center;
 }
 
 .desktop__navlinks__inside__container {
     display: flex;
+    justify-content: space-evenly; /* Evenly space the navlinks */
     align-items: center;
-    justify-content: space-between;
-    flex: 1;
+    width: 100%; /* Ensure it takes up the full width of .test */
 }
-
 
 @media (min-width: 600px) {
     .logo {

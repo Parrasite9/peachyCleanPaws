@@ -59,7 +59,7 @@ function Navbar() {
                 )}
         </>
       ) : (
-        <div className="test">
+        <div className="desktop__navlink__container">
           <div className="desktop__navlinks__inside__container">
             <div className="navlink desktop__navlink desktop__navlink1"><a href=''>Home</a></div>
             <div className="navlink desktop__navlink desktop__navlink2"><a href=''>About Us</a></div>
