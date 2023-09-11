@@ -17,7 +17,7 @@ function Home() {
       <Services />
       <SocialStatus />
       <Mission />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <Email />
       <FAQ />
       <Footer />
