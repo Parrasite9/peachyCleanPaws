@@ -37,7 +37,7 @@
 }
 
 
-@media (min-width: 480px) {
+  @media (min-width: 480px) {
     .hero {
       grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns */
       background-color: #1290CB;
@@ -69,3 +69,9 @@
     }
   }
   
+  @media (min-width: 800px) {
+    .hero__text {
+        font-size: 1.35em;
+    }
+
+  }
