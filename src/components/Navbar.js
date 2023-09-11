@@ -48,10 +48,10 @@ function Navbar() {
                     </div>
 
                     <div className="mobile__navlinks__inside__container">
-                        <div className="navlink mobile__navlink1"><a href=''>Home</a></div>
-                        <div className="navlink mobile__navlink2"><a href=''>About Us</a></div>
-                        <div className="navlink mobile__navlink3"><a href=''>Prices</a></div>
-                        <div className="navlink mobile__navlink4"><a href=''>Appointments</a></div>
+                        <div className="navlink mobile__navlink mobile__navlink1"><a href=''>Home</a></div>
+                        <div className="navlink mobile__navlink mobile__navlink2"><a href=''>About Us</a></div>
+                        <div className="navlink mobile__navlink mobile__navlink3"><a href=''>Prices</a></div>
+                        <div className="navlink mobile__navlink mobile__navlink4"><a href=''>Appointments</a></div>
                     </div>
                 </div>
                 ):(
@@ -59,7 +59,14 @@ function Navbar() {
                 )}
         </>
       ) : (
-        <h1>THIS IS A TEST</h1>
+        <div className="test">
+          <div className="desktop__navlinks__inside__container">
+            <div className="navlink desktop__navlink desktop__navlink1"><a href=''>Home</a></div>
+            <div className="navlink desktop__navlink desktop__navlink2"><a href=''>About Us</a></div>
+            <div className="navlink desktop__navlink desktop__navlink3"><a href=''>Prices</a></div>
+            <div className="navlink desktop__navlink desktop__navlink4"><a href=''>Appointments</a></div>
+          </div>
+        </div>
       )}
       
     </div>
