@@ -3,7 +3,6 @@
     width: 100%;
     overflow: hidden;
     background-color: #D2B48C;
-
     position: relative;
 }
 
@@ -17,7 +16,7 @@
     height: auto;
 }
 
-/* .navlinks__container {
+/* .mobile__navlinks__container {
     border: 2px solid green;
     display: flex;
     overflow-x: auto;
@@ -29,35 +28,39 @@
     transform: translateX(50%);
 }
 
-.navlinks__container.active {
+.mobile__navlinks__container.active {
     transform: translateX(0%);
   } */
 
   /* Navbar.css */
 
-.navlinks__container {
+.mobile__navlinks__container {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh; /* Set height to fill the entire viewport */
-  background-color: white; /* or your preferred background color */
+  height: 100vh; 
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: transform 0.3s ease-in-out;
-  transform: translateY(0%); /* Initially hide above the viewport */
-  z-index: 1000; /* Ensure it's on top of other elements */
+  transform: translateY(0%); 
+  z-index: 1000; 
 }
-  
-.navlinks__container.active {
+ 
+/* .mobile__navlinks__container {
+    display: none;
+} */
+
+.mobile__navlinks__container.active {
     transform: translateY(50); /* Slide down to fill the screen */
   }
 
-  .navlinks__inside__container {
+  .mobile__navlinks__inside__container {
     background-color: #1290CB;
-    padding: 35% 25%;
+    padding: 25% 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,12 +68,12 @@
     flex: 1;
 }
 
-.navlinks__inside__container .navlink {
+.mobile__navlinks__inside__container .navlink {
     margin-top: 15%; /* Increase the margin to add space between links */
   }
   
 
-.navlinks__container > .navlinks__inside__container > .navlink > a {
+.mobile__navlinks__container > .mobile__navlinks__inside__container > .navlink > a {
     color: white; /* CHANGE THIS UGLY ASS COLOR */
     text-decoration: none;
 }
@@ -94,4 +97,10 @@
     .logo {
         width: 50%;
     }
+}
+
+@media (min-width: 900px) {
+    .mobile__navlinks__container {
+    display: none;
+}
 }

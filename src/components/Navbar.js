@@ -5,27 +5,33 @@ import CloseIcon from '@mui/icons-material/Close';
 
 function Navbar() {
 
-    const [menuStatus, setMenuStatus] = useState(false)
+  const [menuOpen, setmenuOpen] = useState(false)
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
-    const showMenu = () => {
-        setMenuStatus(true)
-    }
+  const showMenu = () => {
+      setmenuOpen(true)
+  }
 
-    const closeMenu = () => {
-        setMenuStatus(false)
-    }
+  const closeMenu = () => {
+      setmenuOpen(false)
+  }
 
-    useEffect(() => {
-        const handleResize = () => {
-            setMenuStatus(window.innerWidth >= 900)
-        }
+  useEffect(() => {
+      const handleResize = () => {
+          // setmenuOpen(window.innerWidth)
+          setScreenWidth(window.innerWidth)
+      }
 
-        window.addEventListener('resize', handleResize);
+      // Initial check for screen width
+      handleResize();
 
-        return () => {
-            window.removeEventListener('resize', handleResize)
-        }
-    }, [])
+
+      window.addEventListener('resize', handleResize);
+
+      return () => {
+          window.removeEventListener('resize', handleResize)
+      }
+  }, [])
 
   return (
     <div className='navbar'>
@@ -33,39 +39,29 @@ function Navbar() {
         <img className='logo' src="/images/logo.png" alt="logo" />
       </div>
 
-      
+      {screenWidth < 900 ? (
+        <>
+              {menuOpen ? (
+                <div className="mobile__navlinks__container">
+                    <div className='closeIcon' onClick={closeMenu}>
+                        <CloseIcon />
+                    </div>
 
-      {menuStatus ? (
-
-            <div className="navlinks__container">
-                <div className='closeIcon' onClick={closeMenu}>
-                    <CloseIcon />
+                    <div className="mobile__navlinks__inside__container">
+                        <div className="navlink mobile__navlink1"><a href=''>Home</a></div>
+                        <div className="navlink mobile__navlink2"><a href=''>About Us</a></div>
+                        <div className="navlink mobile__navlink3"><a href=''>Prices</a></div>
+                        <div className="navlink mobile__navlink4"><a href=''>Appointments</a></div>
+                    </div>
                 </div>
-
-                <div className="navlinks__inside__container">
-                    <div className="navlink navlink1"><a href=''>Home</a></div>
-                    <div className="navlink navlink2"><a href=''>About Us</a></div>
-                    <div className="navlink navlink3"><a href=''>Prices</a></div>
-                    <div className="navlink navlink4"><a href=''>Appointments</a></div>
-                </div>
-            </div>
-
-            // DIFFERENCE BETWEEN COMMENTED OUT AND THE ABOVE CODE IS THE FIRST DIV. ONLY KEEPING THIS HERE FOR NOW
-            // IN CASE I NEED IT FOR A LARGER MEDIA QUERY
-            // <div
-            //     className={`navlinks__container ${menuStatus ? "active" : ""}`}
-            // >
-            // <div className="navlinks__container">
-            //   <div className="navlink navlink1"><a href=''>Home</a></div>
-            //   <div className="navlink navlink2"><a href=''>About Us</a></div>
-            //   <div className="navlink navlink3"><a href=''>Prices</a></div>
-            //   <div className="navlink navlink4"><a href=''>Appointments</a></div>
-            //   <div onClick={closeMenu}><CloseIcon /></div>
-            // </div>
-            // </div>
-      ):(
-        <div className="burgerMenu" onClick={showMenu}><MenuIcon /></div>
+                ):(
+                <div className="burgerMenu" onClick={showMenu}><MenuIcon /></div>
+                )}
+        </>
+      ) : (
+        <h1>THIS IS A TEST</h1>
       )}
+      
     </div>
   )
 }
