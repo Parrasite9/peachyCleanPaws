@@ -74,4 +74,8 @@
         font-size: 1.35em;
     }
 
+    .hero__buttons > button {
+        padding: 0 2%;
+    }
+
   }
