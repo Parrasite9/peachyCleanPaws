@@ -102,4 +102,9 @@
     .logo {
         width: 30%;
     }
+
+    .desktop__navlinks__inside__container > .desktop__navlink > a {
+        font-size: 1.15em;
+    }
+
 }

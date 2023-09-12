@@ -77,5 +77,14 @@
     .hero__buttons > button {
         padding: 0 2%;
     }
+  }
 
+  @media (min-width: 1000px) {
+    .hero__text {
+        font-size: 1.75em;
+    }
+
+    .hero__buttons > button {
+        font-size: 1.05em;
+    }
   }

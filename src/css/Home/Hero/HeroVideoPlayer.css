@@ -83,3 +83,13 @@
       font-size: .75em;
     }
   }
+
+  @media (min-width: 1000px) {
+    .play__button > .videoIcon {
+      font-size: 1.75em;
+    }
+
+    .play__button > p {
+      font-size: .85em;
+    }
+  }
