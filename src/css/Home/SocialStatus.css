@@ -42,3 +42,11 @@
         font-size: 2em;
     }
   }
+
+  @media (min-width: 1000px) {
+    .Socials {
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        justify-items: center;
+      }
+  }
