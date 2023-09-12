@@ -28,3 +28,13 @@
         font-size: 2em;
     }
 }
+
+@media (min-width: 1000px) {
+    .mission__learn__more > button {
+        font-size: 1.05em;
+        padding: 2% 4%;
+        background-color: #8BC34A;
+        border: 1px solid #8BC34A;
+        color: black;
+    }
+}
