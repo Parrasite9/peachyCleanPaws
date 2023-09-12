@@ -93,3 +93,14 @@
       font-size: .85em;
     }
   }
+
+  @media (min-width: 1400px) {
+    .play__button > .videoIcon {
+      font-size: 2em;
+    }
+
+    .play__button > p {
+      font-size: 1em;
+      white-space: nowrap;
+    }
+  }
