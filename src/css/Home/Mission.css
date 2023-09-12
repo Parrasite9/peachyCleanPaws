@@ -22,3 +22,9 @@
     border: 1px solid #1290CB;
     color: white;
 }
+
+@media (min-width: 800px) {
+    .paw__print > .paw__Icon {
+        font-size: 2em;
+    }
+}
