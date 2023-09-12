@@ -95,5 +95,11 @@
 @media (min-width: 900px) {
     .mobile__navlinks__container {
     display: none;
+    }
 }
+
+@media (min-width: 1000px) {
+    .logo {
+        width: 30%;
+    }
 }
