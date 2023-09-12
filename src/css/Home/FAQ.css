@@ -22,3 +22,9 @@
 .faq__Icon {
     color: #F5F5F5;
 }
+
+@media (min-width: 1000px) {
+    .faq__header > h3 {
+        font-size: 1.25em;
+    }
+}

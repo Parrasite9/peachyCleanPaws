@@ -50,3 +50,16 @@
 .slick-slider {
     overflow: hidden;
 }
+
+@media (min-width: 800px) {
+    .individual__Slide > img {
+        width: 8%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1000px) {
+    .individual__Slide > p {
+        font-size: 1.25em;
+    }
+}
