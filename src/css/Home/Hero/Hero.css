@@ -87,16 +87,22 @@
     .hero__buttons > button {
         font-size: 1.05em;
     }
-  }
-  
-  @media (min-width: 1400px) {
+
     .largeScreen__Container {
         display: flex;
         flex-direction: column; /* Center vertically */
         align-items: center; /* Center horizontally */
         justify-content: center; /* Center vertically */
       }
-      
+
+      .largeScreen__Container > .hero__buttons > button {
+        padding: 0 8%;
+        white-space: nowrap;
+      }
+
+  }
+  
+  @media (min-width: 1400px) {
       /* You can add additional styles to h1 and buttons if needed */
       .largeScreen__Container > .hero__text > h1 {
         font-size: 2.25em;

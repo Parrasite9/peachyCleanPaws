@@ -92,6 +92,10 @@
     .play__button > p {
       font-size: .85em;
     }
+
+    .play__button > p {
+      white-space: nowrap;
+    }
   }
 
   @media (min-width: 1400px) {
