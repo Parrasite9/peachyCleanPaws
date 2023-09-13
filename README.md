@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Possible Font Ideas
+https://www.fontspring.com/fonts/typomancer/lince
+https://www.google.com/search?q=Fonts+used+for+dog+grooming&sca_esv=560734445&source=hp&ei=Jt3sZKKPB5ql2roP_8qDuA0&iflsig=AD69kcEAAAAAZOzrNrzs_y_uASglRJt9Hdp03LTpaMJd&ved=0ahUKEwiiutuL9P-AAxWaklYBHX_lANcQ4dUDCAs&uact=5&oq=Fonts+used+for+dog+grooming&gs_lp=Egdnd3Mtd2l6IhtGb250cyB1c2VkIGZvciBkb2cgZ3Jvb21pbmcyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRirAjIIECEYFhgeGB0yCBAhGBYYHhgdMggQIRgWGB4YHTIIECEYFhgeGB0yCBAhGBYYHhgdSP8oUABY0CdwAHgAkAEBmAGwAaAB-hOqAQQxOC45uAEDyAEA-AEBwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQABiABBixAxiDAcICERAuGIMBGMcBGLEDGNEDGIAEwgILEAAYigUYsQMYgwHCAgsQLhiKBRixAxiDAcICCxAuGIAEGLEDGIMBwgIREC4YigUYsQMYgwEYxwEY0QPCAhcQLhiDARivARjHARixAxiABBiYBRiZBcICCBAAGIAEGLEDwgIIEC4YsQMYgATCAgUQABiABMICCBAuGIoFGLEDwgIGEAAYFhgewgIIEAAYFhgeGArCAggQABgWGB4YD8ICChAhGBYYHhgPGB0&sclient=gws-wiz#ip=1
+
