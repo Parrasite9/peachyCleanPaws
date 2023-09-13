@@ -14,7 +14,7 @@ function Footer() {
             <a href='tel:+18178888888'>(817) 888-8888</a>
           </div>
           <div className='footer__logo'>
-            <img src="images/logo.png" alt="#" />
+            <img src="images/logo_White.png" alt="#" />
           </div>
         </div>
         <nav className='footer__nav'>
